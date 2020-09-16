@@ -3,10 +3,10 @@ public class Loader {
     public static void main(String[] arg)
     {
 
-        Book a= new Book();
-        a.setName("Портрет Дориана Грея");
-        a.setAuthor("Оскар Уайльд");
-        a.setPages(320);
+        Author a = new Author();
+        a.setName("Оскар Уайльд");
+        a.setEmail("OskarWilde@gmail.com");
+        a.setGender('M');
 
         System.out.println(a);
 
